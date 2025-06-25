@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: "SolaimanLipi", Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-image: url("https://pcc.police.gov.bd/ords/pcc2/r/500/files/static/v45/body_bg.png");
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#main {
+    max-width: 1170px;
+    max-height: 1024.5px;
+    background-color: #e4e1e1;
+    overflow: hidden;
+}
+.header {
+    width: 1162px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo {
+    width: 270px;
+    height: 60px;
+    padding: 0px 0px 5px 13px;
+}
+.logo img {
+    width: 270px;
+    height: 60px;
+}
+.navbar {
+    background-color: #164678;
+    width: 1162px;
+    height: 40px;
+    align-content: center;
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.navbar .items:hover {
+    background-color: #216bb9 !important;
+}
+.navbar a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding: 12px;
+}
+.navbar a:hover {
+    background-color: #216bb9 !important;
+}
+.content {
+    display: flex;
+    padding: 10px 110px;    
+}
+.print-box {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.21);
+    border: 1px solid rgb(0 0 0 / 40%);
+    display: inline-block;
+    width: 929.66px;
+    height: 48px;
+}
+.print-icon {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 4px;
+}
+.print-icon img{
+    width: 40px;
+    height: 40px;
+}
+.main2 {
+    width: 580px;
+    margin: 0 auto;
+}
+.logo2 {
+    width: 100px;
+    height: 100px;    
+}
+.logo2 img{
+    width: 100px;
+    height: 100px;
+    align-content: center;
+}
+.heading-line1 {
+    font-size: 22px;
+    line-height: 21px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #393939;
+}
+.content2 {
+    display: flex;
+    margin: 0 auto;
+}
+.qrcode img{
+    border: 10px solid white;
+    display: block;
+    width: 80px;
+}
+.qrcode p {
+    font-size: 12px;
+    text-align: left;
+    padding-top: 3px;
+}
+.centaral_info {
+    margin: 0 auto;
+}
+.centaral_info p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 30px;
+}
+.extrapart {
+    width: 111px;
+    display: flex;
+}
+.extrapart p{
+    font-size: 12px;
+    text-align: right;
+    align-content: end;
+}
+.content3 {
+    margin-top: 10px;
+}
+.content3 h1 {
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+}
+.content3 p {
+    color: #000000;
+    text-align: justify;
+    font-size: 14px;
+    margin-top: 40px;
+    line-height: 20px;
+}
+.content3 .space {
+    margin-top: 0;
+    margin-top: 10px;
+}
+.content4 {
+    display: flex;
+    font-size: 12px;
+    width: 580px;
+    margin-top: 70px;
+    line-height: 18px;
+}
+.content4 .part1{
+    text-align: left;
+    width: 193px;
+}
+.content4 .part2{
+    text-align: center;
+    width: 193px;
+    align-self: center;
+}
+.content4 .part3{
+    text-align: right;
+    width: 193px;
+}
+.content5 p{
+    display: flex;
+    font-size: 11px;
+    width: 580px;
+    margin-top: 20px;
+    padding-bottom: 35px;
+    line-height: 18px;
+    font-style: italic;
+    color: red;
+}
+.footer p{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer a{
+    color: #2370c2;
+    text-decoration: none;
+}
+
